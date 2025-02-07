@@ -2,6 +2,8 @@ import React from "react";
 import LineChart from "./components/LineChart";
 import ChartContainer from "./components/common/ChartContainer";
 import BarChart from "./components/BarChart";
+import GraphChart from "./components/GraphChart";
+import PieChart from "./components/PieChart";
 const App = () => {
   return (
     <div className="app p-6 bg-gray-100 min-h-screen">
@@ -12,6 +14,12 @@ const App = () => {
         </ChartContainer>
         <ChartContainer>
           <BarChart />
+        </ChartContainer>
+        <ChartContainer>
+          <GraphChart />
+        </ChartContainer>
+        <ChartContainer>
+          <PieChart />
         </ChartContainer>
       </div>
     </div>
