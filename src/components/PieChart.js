@@ -36,7 +36,7 @@ function PieChart() {
     };
     myChart.setOption(option);
   }, []);
-  return <div id="pie-chart" style={{ width: "600px", height: "400px" }}></div>;
+  return <div id="pie-chart" style={{ width: "100%", height: "400px" }}></div>;
 }
 
 export default PieChart;

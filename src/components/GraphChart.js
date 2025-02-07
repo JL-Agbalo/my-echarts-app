@@ -30,7 +30,7 @@ function GraphChart() {
     myChart.setOption(option);
   }, []);
   return (
-    <div id="graph-chart" style={{ width: "600px", height: "400px" }}></div>
+    <div id="graph-chart" style={{ width: "100%", height: "400px" }}></div>
   );
 }
 
