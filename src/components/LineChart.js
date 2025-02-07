@@ -1,4 +1,4 @@
-import React, { use, useEffect } from "react";
+import React, { useEffect } from "react";
 import * as echarts from "echarts";
 import { postData } from "../data/chartData";
 import { commentData } from "../data/chartData";
