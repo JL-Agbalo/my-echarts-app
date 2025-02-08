@@ -5,6 +5,7 @@ import BarChart from "./components/BarChart";
 import GraphChart from "./components/GraphChart";
 import PieChart from "./components/PieChart";
 import ScatterChart from "./components/ScatterChart";
+import LineRaceChart from "./components/LineRaceChart";
 const App = () => {
   return (
     <div className="app p-6 bg-gray-100 min-h-screen">
@@ -24,6 +25,9 @@ const App = () => {
         </ChartContainer>
         <ChartContainer>
           <ScatterChart />
+        </ChartContainer>
+        <ChartContainer>
+          <LineRaceChart />
         </ChartContainer>
       </div>
     </div>
