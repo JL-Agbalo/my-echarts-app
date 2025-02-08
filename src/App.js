@@ -6,6 +6,7 @@ import GraphChart from "./components/GraphChart";
 import PieChart from "./components/PieChart";
 import ScatterChart from "./components/ScatterChart";
 import LineRaceChart from "./components/LineRaceChart";
+import StackedBarChart from "./components/StackedBarChart";
 const App = () => {
   return (
     <div className="app p-6 bg-gray-100 min-h-screen">
@@ -28,6 +29,9 @@ const App = () => {
         </ChartContainer>
         <ChartContainer>
           <LineRaceChart />
+        </ChartContainer>
+        <ChartContainer>
+          <StackedBarChart />
         </ChartContainer>
       </div>
     </div>
