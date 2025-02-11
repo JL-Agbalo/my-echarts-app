@@ -8,10 +8,13 @@ import ScatterChart from "./components/ScatterChart";
 import LineRaceChart from "./components/LineRaceChart";
 import StackedBarChart from "./components/StackedBarChart";
 import SquadChart from "./components/squadChart/index";
-
+import DropdownTable from "./components/study/index";
 const App = () => {
   return (
-    <div className="app">{/* <SquadChart /> */}</div>
+    <div className="app">
+      {/* <SquadChart /> */}
+      <DropdownTable />
+    </div>
 
     // <div className="app p-6 bg-gray-100 min-h-screen">
     //   <h1 className="text-3xl font-bold mb-6">ECharts with Tailwind CSS</h1>
